@@ -1,0 +1,30 @@
+{
+  "split": "evaluation",
+  "n": 13,
+  "elapsed_seconds": 66.11413717269897,
+  "methods": {
+    "yin": {
+      "median_absolute_cents": 2.6579481566080694,
+      "mean_absolute_cents": 6.160874090403122,
+      "within_50_cents": 13,
+      "octave_errors": 0
+    },
+    "fixed": {
+      "median_absolute_cents": 7.781009358670679,
+      "mean_absolute_cents": 6.892879404300522,
+      "within_50_cents": 13,
+      "octave_errors": 0,
+      "mean_spectral_loss": 2.115440066044147
+    },
+    "learned": {
+      "median_absolute_cents": 3.8106590661574633,
+      "mean_absolute_cents": 7.08426581017277,
+      "within_50_cents": 13,
+      "octave_errors": 0,
+      "mean_spectral_loss": 2.0213736387399526
+    }
+  },
+  "learned_lower_loss_count": 11,
+  "mean_loss_reduction": 0.09406642730419452,
+  "mean_relative_loss_reduction": 0.047106890619509914
+}
