@@ -1,0 +1,179 @@
+{
+  "construction": "assembled isolated recordings; not a human performance",
+  "reference": [
+    {
+      "onset": 0.25,
+      "offset": 0.75,
+      "midi": 48,
+      "source": "C3.mp3",
+      "dynamic": "unspecified"
+    },
+    {
+      "onset": 0.95,
+      "offset": 1.45,
+      "midi": 48,
+      "source": "C3.mp3",
+      "dynamic": "unspecified"
+    },
+    {
+      "onset": 1.5299999999999998,
+      "offset": 2.2299999999999995,
+      "midi": 48,
+      "source": "C3.mp3",
+      "dynamic": "unspecified"
+    },
+    {
+      "onset": 2.3099999999999996,
+      "offset": 2.8099999999999996,
+      "midi": 60,
+      "source": "C4.mp3",
+      "dynamic": "unspecified"
+    },
+    {
+      "onset": 2.9299999999999997,
+      "offset": 3.4299999999999997,
+      "midi": 60,
+      "source": "C4.mp3",
+      "dynamic": "unspecified"
+    },
+    {
+      "onset": 3.51,
+      "offset": 4.21,
+      "midi": 57,
+      "source": "A3.mp3",
+      "dynamic": "unspecified"
+    }
+  ],
+  "predictions": {
+    "yin": [
+      {
+        "onset": 0.23399999999999999,
+        "offset": 0.744,
+        "midi": 47.93802850591875
+      },
+      {
+        "onset": 0.9339999999999999,
+        "offset": 1.444,
+        "midi": 47.93802850796067
+      },
+      {
+        "onset": 1.514,
+        "offset": 2.224,
+        "midi": 47.938028508301315
+      },
+      {
+        "onset": 2.294,
+        "offset": 2.814,
+        "midi": 60.01847108588312
+      },
+      {
+        "onset": 2.914,
+        "offset": 3.434,
+        "midi": 60.018471085707375
+      },
+      {
+        "onset": 3.4939999999999998,
+        "offset": 4.214,
+        "midi": 57.062462827181086
+      }
+    ],
+    "synthesis": [
+      {
+        "onset": 0.23399999999999999,
+        "offset": 0.744,
+        "midi": 48.09335075265167
+      },
+      {
+        "onset": 0.9339999999999999,
+        "offset": 1.444,
+        "midi": 47.98132139333035
+      },
+      {
+        "onset": 1.514,
+        "offset": 2.224,
+        "midi": 48.00688983598871
+      },
+      {
+        "onset": 2.294,
+        "offset": 2.814,
+        "midi": 60.07271460813365
+      },
+      {
+        "onset": 2.914,
+        "offset": 3.434,
+        "midi": 60.080559562587794
+      },
+      {
+        "onset": 3.4939999999999998,
+        "offset": 4.214,
+        "midi": 57.0540609961674
+      }
+    ]
+  },
+  "metrics": {
+    "yin": {
+      "onset_only": {
+        "matches": 6,
+        "reference": 6,
+        "predicted": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "onset_mae": 0.01599999999999983,
+        "offset_mae": 0.0050000000000001155
+      },
+      "pitch_onset": {
+        "matches": 6,
+        "reference": 6,
+        "predicted": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "onset_mae": 0.01599999999999983,
+        "offset_mae": 0.0050000000000001155
+      },
+      "pitch_onset_offset": {
+        "matches": 6,
+        "reference": 6,
+        "predicted": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "onset_mae": 0.01599999999999983,
+        "offset_mae": 0.0050000000000001155
+      }
+    },
+    "synthesis": {
+      "onset_only": {
+        "matches": 6,
+        "reference": 6,
+        "predicted": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "onset_mae": 0.01599999999999983,
+        "offset_mae": 0.0050000000000001155
+      },
+      "pitch_onset": {
+        "matches": 6,
+        "reference": 6,
+        "predicted": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "onset_mae": 0.01599999999999983,
+        "offset_mae": 0.0050000000000001155
+      },
+      "pitch_onset_offset": {
+        "matches": 6,
+        "reference": 6,
+        "predicted": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "onset_mae": 0.01599999999999983,
+        "offset_mae": 0.0050000000000001155
+      }
+    }
+  }
+}

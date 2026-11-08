@@ -1,0 +1,179 @@
+{
+  "construction": "assembled isolated recordings; not a human performance",
+  "reference": [
+    {
+      "onset": 0.25,
+      "offset": 0.75,
+      "midi": 69,
+      "source": "A4.mp3",
+      "dynamic": "unspecified"
+    },
+    {
+      "onset": 0.83,
+      "offset": 1.5299999999999998,
+      "midi": 48,
+      "source": "C3.mp3",
+      "dynamic": "unspecified"
+    },
+    {
+      "onset": 1.6099999999999999,
+      "offset": 2.3099999999999996,
+      "midi": 57,
+      "source": "A3.mp3",
+      "dynamic": "unspecified"
+    },
+    {
+      "onset": 2.3899999999999997,
+      "offset": 3.09,
+      "midi": 57,
+      "source": "A3.mp3",
+      "dynamic": "unspecified"
+    },
+    {
+      "onset": 3.1699999999999995,
+      "offset": 3.6699999999999995,
+      "midi": 69,
+      "source": "A4.mp3",
+      "dynamic": "unspecified"
+    },
+    {
+      "onset": 3.869999999999999,
+      "offset": 4.219999999999999,
+      "midi": 48,
+      "source": "C3.mp3",
+      "dynamic": "unspecified"
+    }
+  ],
+  "predictions": {
+    "yin": [
+      {
+        "onset": 0.23399999999999999,
+        "offset": 0.744,
+        "midi": 69.07453381634762
+      },
+      {
+        "onset": 0.814,
+        "offset": 1.524,
+        "midi": 47.9380285051874
+      },
+      {
+        "onset": 1.5939999999999999,
+        "offset": 2.314,
+        "midi": 57.06246282726569
+      },
+      {
+        "onset": 2.374,
+        "offset": 3.094,
+        "midi": 57.062462826979754
+      },
+      {
+        "onset": 3.154,
+        "offset": 3.664,
+        "midi": 69.07453381382147
+      },
+      {
+        "onset": 3.854,
+        "offset": 4.224,
+        "midi": 47.93802850443203
+      }
+    ],
+    "synthesis": [
+      {
+        "onset": 0.23399999999999999,
+        "offset": 0.744,
+        "midi": 69.09135547286859
+      },
+      {
+        "onset": 0.814,
+        "offset": 1.524,
+        "midi": 48.03329332144645
+      },
+      {
+        "onset": 1.5939999999999999,
+        "offset": 2.314,
+        "midi": 57.18174067678953
+      },
+      {
+        "onset": 2.374,
+        "offset": 3.094,
+        "midi": 57.1143580843964
+      },
+      {
+        "onset": 3.154,
+        "offset": 3.664,
+        "midi": 69.13238572038985
+      },
+      {
+        "onset": 3.854,
+        "offset": 4.224,
+        "midi": 48.01665514440127
+      }
+    ]
+  },
+  "metrics": {
+    "yin": {
+      "onset_only": {
+        "matches": 6,
+        "reference": 6,
+        "predicted": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "onset_mae": 0.01599999999999972,
+        "offset_mae": 0.005000000000000153
+      },
+      "pitch_onset": {
+        "matches": 6,
+        "reference": 6,
+        "predicted": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "onset_mae": 0.01599999999999972,
+        "offset_mae": 0.005000000000000153
+      },
+      "pitch_onset_offset": {
+        "matches": 6,
+        "reference": 6,
+        "predicted": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "onset_mae": 0.01599999999999972,
+        "offset_mae": 0.005000000000000153
+      }
+    },
+    "synthesis": {
+      "onset_only": {
+        "matches": 6,
+        "reference": 6,
+        "predicted": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "onset_mae": 0.01599999999999972,
+        "offset_mae": 0.005000000000000153
+      },
+      "pitch_onset": {
+        "matches": 6,
+        "reference": 6,
+        "predicted": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "onset_mae": 0.01599999999999972,
+        "offset_mae": 0.005000000000000153
+      },
+      "pitch_onset_offset": {
+        "matches": 6,
+        "reference": 6,
+        "predicted": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "onset_mae": 0.01599999999999972,
+        "offset_mae": 0.005000000000000153
+      }
+    }
+  }
+}

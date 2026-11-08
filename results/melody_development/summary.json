@@ -1,0 +1,58 @@
+{
+  "clips": 3,
+  "reference_events": 18,
+  "methods": {
+    "yin": {
+      "onset_only": {
+        "matches": 18,
+        "reference": 18,
+        "predicted": 18,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "pitch_onset": {
+        "matches": 18,
+        "reference": 18,
+        "predicted": 18,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "pitch_onset_offset": {
+        "matches": 18,
+        "reference": 18,
+        "predicted": 18,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "synthesis": {
+      "onset_only": {
+        "matches": 18,
+        "reference": 18,
+        "predicted": 18,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "pitch_onset": {
+        "matches": 18,
+        "reference": 18,
+        "predicted": 18,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "pitch_onset_offset": {
+        "matches": 18,
+        "reference": 18,
+        "predicted": 18,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  }
+}

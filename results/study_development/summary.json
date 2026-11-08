@@ -1,0 +1,91 @@
+{
+  "n": 4,
+  "elapsed_seconds": 32.061683177948,
+  "methods": {
+    "yin": {
+      "mean_absolute_cents": 5.059284677654738,
+      "median_absolute_cents": 5.598996236689736,
+      "within50": 4,
+      "octave_errors": 0,
+      "mean_error_pitch_cluster_bootstrap95": [
+        2.8951692509398512,
+        6.75600056672198
+      ]
+    },
+    "fixed": {
+      "mean_absolute_cents": 8.567668614455158,
+      "median_absolute_cents": 8.119536248522786,
+      "within50": 4,
+      "octave_errors": 0,
+      "mean_error_pitch_cluster_bootstrap95": [
+        6.379042308987946,
+        11.00658676349371
+      ],
+      "mean_loss": 2.016227900981903
+    },
+    "free": {
+      "mean_absolute_cents": 895.1264949727615,
+      "median_absolute_cents": 1192.8969819713493,
+      "within50": 1,
+      "octave_errors": 3,
+      "mean_error_pitch_cluster_bootstrap95": [
+        299.36966560440123,
+        1193.1128373425336
+      ],
+      "mean_loss": 1.8167400062084198
+    },
+    "anchor": {
+      "mean_absolute_cents": 7.266291381887217,
+      "median_absolute_cents": 8.017614830578665,
+      "within50": 4,
+      "octave_errors": 0,
+      "mean_error_pitch_cluster_bootstrap95": [
+        3.4255798417273406,
+        10.355679473355647
+      ],
+      "mean_loss": 1.8839681446552277
+    },
+    "prior": {
+      "mean_absolute_cents": 7.266291381887217,
+      "median_absolute_cents": 8.017614830578665,
+      "within50": 4,
+      "octave_errors": 0,
+      "mean_error_pitch_cluster_bootstrap95": [
+        3.4255798417273406,
+        10.355679473355647
+      ],
+      "mean_loss": 1.8839681446552277
+    }
+  },
+  "by_dynamic": {
+    "unspecified": {
+      "yin": {
+        "n": 4,
+        "within50": 4,
+        "mean_absolute_cents": 5.059284677654738
+      },
+      "fixed": {
+        "n": 4,
+        "within50": 4,
+        "mean_absolute_cents": 8.567668614455158
+      },
+      "free": {
+        "n": 4,
+        "within50": 1,
+        "mean_absolute_cents": 895.1264949727615
+      },
+      "anchor": {
+        "n": 4,
+        "within50": 4,
+        "mean_absolute_cents": 7.266291381887217
+      },
+      "prior": {
+        "n": 4,
+        "within50": 4,
+        "mean_absolute_cents": 7.266291381887217
+      }
+    }
+  },
+  "anchor_loss_improved_count": 4,
+  "anchor_mean_relative_loss_reduction": 0.06585836113525478
+}
