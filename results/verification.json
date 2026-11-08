@@ -1,0 +1,15 @@
+{
+  "tests_passed": 17,
+  "test_command": "python -m pytest -q test_model.py",
+  "source_hashes_verified": true,
+  "source_recordings": 17,
+  "duplicate_source_hashes": 0,
+  "wav_files_validated": 65,
+  "wav_rate": 8000,
+  "wav_frames": 8000,
+  "local_report_links_valid": true,
+  "development_C3_deterministic_rerun": true,
+  "evaluation_rerun": false,
+  "subjective_listening_assessed": false,
+  "report_desktop_browser_render": "passed; isolated headless Chrome, 1280x1100"
+}
