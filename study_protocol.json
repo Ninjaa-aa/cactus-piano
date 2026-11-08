@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "seed": 2028,
+  "development_source": "four original Salamander development notes only",
+  "independent_source": "University of Iowa Steinway MIS",
+  "evaluation_notes": [
+    "C3",
+    "Eb3",
+    "Gb3",
+    "A3",
+    "C4",
+    "Eb4",
+    "Gb4",
+    "A4",
+    "C5",
+    "Eb5",
+    "Gb5",
+    "A5",
+    "C6"
+  ],
+  "dynamics": [
+    "pp",
+    "mf",
+    "ff"
+  ],
+  "sample_rate": 8000,
+  "isolated_duration": 1.0,
+  "fit_steps": 180,
+  "octave_candidates": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "octave_selection_prior": 0.3,
+  "octave_prior_policy": "Add 0.3 times absolute octave distance from audio-derived YIN to reconstruction loss at selection only; choose on development before evaluation. No labels enter fitting.",
+  "melody": {
+    "development_clips": 3,
+    "evaluation_clips": 12,
+    "notes_per_clip": 6,
+    "durations": [
+      0.35,
+      0.5,
+      0.7
+    ],
+    "gaps": [
+      0.08,
+      0.12,
+      0.2
+    ],
+    "sample_offset_seconds": 0.0,
+    "hop": 80,
+    "fft": 256,
+    "minimum_peak_distance_seconds": 0.2,
+    "flux_threshold_fraction": 0.12,
+    "offset_rms_fraction": 0.1,
+    "onset_tolerance_seconds": 0.05,
+    "offset_tolerance_seconds": 0.05
+  },
+  "evaluation_policy": "No changes to frozen algorithm or configuration after independent evaluation; retain all outcomes and note errors. Assembled sequences are controlled samples, not human performances. Dynamics are timbral conditions after per-note peak normalisation."
+}
