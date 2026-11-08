@@ -1,0 +1,189 @@
+{
+  "construction": "assembled isolated recordings; not a human performance",
+  "reference": [
+    {
+      "onset": 0.25,
+      "offset": 0.95,
+      "midi": 75,
+      "source": "Piano.pp.Eb5.aiff",
+      "dynamic": "pp"
+    },
+    {
+      "onset": 1.0699999999999998,
+      "offset": 1.42,
+      "midi": 69,
+      "source": "Piano.pp.A4.aiff",
+      "dynamic": "pp"
+    },
+    {
+      "onset": 1.6199999999999999,
+      "offset": 2.32,
+      "midi": 84,
+      "source": "Piano.pp.C6.aiff",
+      "dynamic": "pp"
+    },
+    {
+      "onset": 2.44,
+      "offset": 3.1399999999999997,
+      "midi": 78,
+      "source": "Piano.pp.Gb5.aiff",
+      "dynamic": "pp"
+    },
+    {
+      "onset": 3.26,
+      "offset": 3.96,
+      "midi": 84,
+      "source": "Piano.ff.C6.aiff",
+      "dynamic": "ff"
+    },
+    {
+      "onset": 4.04,
+      "offset": 4.39,
+      "midi": 81,
+      "source": "Piano.pp.A5.aiff",
+      "dynamic": "pp"
+    }
+  ],
+  "predictions": {
+    "yin": [
+      {
+        "onset": 0.23399999999999999,
+        "offset": 0.544,
+        "midi": 75.06883093212603
+      },
+      {
+        "onset": 1.054,
+        "offset": 1.254,
+        "midi": 85.77893945000964
+      },
+      {
+        "onset": 1.254,
+        "offset": 1.424,
+        "midi": 69.0373818304461
+      },
+      {
+        "onset": 1.704,
+        "offset": 2.324,
+        "midi": 50.412377079165765
+      },
+      {
+        "onset": 2.424,
+        "offset": 2.654,
+        "midi": 78.07811106195518
+      },
+      {
+        "onset": 3.2439999999999998,
+        "offset": 3.914,
+        "midi": 84.11030917871011
+      },
+      {
+        "onset": 4.094,
+        "offset": 4.384,
+        "midi": 81.20250766469766
+      }
+    ],
+    "synthesis": [
+      {
+        "onset": 0.23399999999999999,
+        "offset": 0.544,
+        "midi": 74.89091116487266
+      },
+      {
+        "onset": 1.054,
+        "offset": 1.254,
+        "midi": 85.88443147624535
+      },
+      {
+        "onset": 1.254,
+        "offset": 1.424,
+        "midi": 69.18064273377522
+      },
+      {
+        "onset": 1.704,
+        "offset": 2.324,
+        "midi": 50.404034904317065
+      },
+      {
+        "onset": 2.424,
+        "offset": 2.654,
+        "midi": 78.05688100611681
+      },
+      {
+        "onset": 3.2439999999999998,
+        "offset": 3.914,
+        "midi": 84.08891730250481
+      },
+      {
+        "onset": 4.094,
+        "offset": 4.384,
+        "midi": 81.1314336021412
+      }
+    ]
+  },
+  "metrics": {
+    "yin": {
+      "onset_only": {
+        "matches": 4,
+        "reference": 6,
+        "predicted": 7,
+        "precision": 0.5714285714285714,
+        "recall": 0.6666666666666666,
+        "f1": 0.6153846153846154,
+        "onset_mae": 0.01599999999999996,
+        "offset_mae": 0.27599999999999986
+      },
+      "pitch_onset": {
+        "matches": 3,
+        "reference": 6,
+        "predicted": 7,
+        "precision": 0.42857142857142855,
+        "recall": 0.5,
+        "f1": 0.46153846153846156,
+        "onset_mae": 0.016000000000000014,
+        "offset_mae": 0.3126666666666665
+      },
+      "pitch_onset_offset": {
+        "matches": 1,
+        "reference": 6,
+        "predicted": 7,
+        "precision": 0.14285714285714285,
+        "recall": 0.16666666666666666,
+        "f1": 0.15384615384615385,
+        "onset_mae": 0.016000000000000014,
+        "offset_mae": 0.04599999999999982
+      }
+    },
+    "synthesis": {
+      "onset_only": {
+        "matches": 4,
+        "reference": 6,
+        "predicted": 7,
+        "precision": 0.5714285714285714,
+        "recall": 0.6666666666666666,
+        "f1": 0.6153846153846154,
+        "onset_mae": 0.01599999999999996,
+        "offset_mae": 0.27599999999999986
+      },
+      "pitch_onset": {
+        "matches": 3,
+        "reference": 6,
+        "predicted": 7,
+        "precision": 0.42857142857142855,
+        "recall": 0.5,
+        "f1": 0.46153846153846156,
+        "onset_mae": 0.016000000000000014,
+        "offset_mae": 0.3126666666666665
+      },
+      "pitch_onset_offset": {
+        "matches": 1,
+        "reference": 6,
+        "predicted": 7,
+        "precision": 0.14285714285714285,
+        "recall": 0.16666666666666666,
+        "f1": 0.15384615384615385,
+        "onset_mae": 0.016000000000000014,
+        "offset_mae": 0.04599999999999982
+      }
+    }
+  }
+}

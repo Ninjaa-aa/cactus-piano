@@ -1,0 +1,58 @@
+{
+  "clips": 12,
+  "reference_events": 72,
+  "methods": {
+    "yin": {
+      "onset_only": {
+        "matches": 66,
+        "reference": 72,
+        "predicted": 87,
+        "precision": 0.7586206896551724,
+        "recall": 0.9166666666666666,
+        "f1": 0.8301886792452831
+      },
+      "pitch_onset": {
+        "matches": 48,
+        "reference": 72,
+        "predicted": 87,
+        "precision": 0.5517241379310345,
+        "recall": 0.6666666666666666,
+        "f1": 0.6037735849056604
+      },
+      "pitch_onset_offset": {
+        "matches": 33,
+        "reference": 72,
+        "predicted": 87,
+        "precision": 0.3793103448275862,
+        "recall": 0.4583333333333333,
+        "f1": 0.41509433962264153
+      }
+    },
+    "synthesis": {
+      "onset_only": {
+        "matches": 66,
+        "reference": 72,
+        "predicted": 87,
+        "precision": 0.7586206896551724,
+        "recall": 0.9166666666666666,
+        "f1": 0.8301886792452831
+      },
+      "pitch_onset": {
+        "matches": 48,
+        "reference": 72,
+        "predicted": 87,
+        "precision": 0.5517241379310345,
+        "recall": 0.6666666666666666,
+        "f1": 0.6037735849056604
+      },
+      "pitch_onset_offset": {
+        "matches": 33,
+        "reference": 72,
+        "predicted": 87,
+        "precision": 0.3793103448275862,
+        "recall": 0.4583333333333333,
+        "f1": 0.41509433962264153
+      }
+    }
+  }
+}
