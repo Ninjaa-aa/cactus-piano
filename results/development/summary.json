@@ -1,0 +1,30 @@
+{
+  "split": "development",
+  "n": 4,
+  "elapsed_seconds": 24.500398874282837,
+  "methods": {
+    "yin": {
+      "median_absolute_cents": 5.598996236689736,
+      "mean_absolute_cents": 5.059284677654738,
+      "within_50_cents": 4,
+      "octave_errors": 0
+    },
+    "fixed": {
+      "median_absolute_cents": 8.119536248522786,
+      "mean_absolute_cents": 8.567668614455158,
+      "within_50_cents": 4,
+      "octave_errors": 0,
+      "mean_spectral_loss": 2.016227900981903
+    },
+    "learned": {
+      "median_absolute_cents": 5.490054723254715,
+      "mean_absolute_cents": 4.953699557324407,
+      "within_50_cents": 4,
+      "octave_errors": 0,
+      "mean_spectral_loss": 1.8829694092273712
+    }
+  },
+  "learned_lower_loss_count": 4,
+  "mean_loss_reduction": 0.13325849175453186,
+  "mean_relative_loss_reduction": 0.06634480642084153
+}

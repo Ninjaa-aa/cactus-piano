@@ -1,0 +1,8 @@
+{
+  "files": {
+    "model.py": "e8734e8498e3727ba4dceb07bb9c102dc909f3627b0b18a3589c72e89783538f",
+    "experiment.py": "70d4143838ae9f127113b63664b40da0c6b4f8bda20f3cd6838d856bc5a6024d",
+    "protocol.json": "dfc913d508d274a47aaed9233104a339f8c2419b4dbc2794666eec86f2266b92",
+    "data/manifest.json": "34a12d2492c0ccdc5127673263a1ebd6af1bf39a1f52754613eb4e253fe21894"
+  }
+}
