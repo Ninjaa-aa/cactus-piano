@@ -1,0 +1,5 @@
+Suggested CV wording, after independently reviewing and rerunning the project:
+
+Built an AI-assisted differentiable piano-synthesis and MIDI-transcription prototype; evaluated 39 independent recordings across three dynamics and 12 controlled melodies (72 notes), with pitch/onset F1 0.604; investigated octave ambiguity using reconstruction-only and pitch-prior selection.
+
+Limits: controlled sample-assembled melodies, not human performances; no claim of outperforming YIN. See results/STUDY_REPORT.md.
