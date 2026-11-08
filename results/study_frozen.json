@@ -1,0 +1,11 @@
+{
+  "files": {
+    "model.py": "e8734e8498e3727ba4dceb07bb9c102dc909f3627b0b18a3589c72e89783538f",
+    "study.py": "adb087aac91b10cd31232c4ca266b35221eb50be5cd40dc41a05da44ab1ded7d",
+    "melody.py": "c1bf3c74b3de4902ae5c89eeadf3ebe73a32d883880a02979515bc969539a0cf",
+    "study_protocol.json": "fd11c3dca1ab158e56391dcbfa96ccf1fb3fe1382d6a7708656f3d85ec42cc62",
+    "protocol.json": "dfc913d508d274a47aaed9233104a339f8c2419b4dbc2794666eec86f2266b92",
+    "data/manifest.json": "34a12d2492c0ccdc5127673263a1ebd6af1bf39a1f52754613eb4e253fe21894",
+    "data/iowa/manifest.json": "f36dc730c148f2548d886fac833447024c1393d0ea0d5e39496423c96ec9d58e"
+  }
+}
