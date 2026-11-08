@@ -1,0 +1,53 @@
+{
+  "experiment": "isolated-note analysis by synthesis",
+  "source_commit": "efd8296360f9526e379bfbe5c1698ff54d6a1d34",
+  "development": [
+    "C3",
+    "A3",
+    "C4",
+    "A4"
+  ],
+  "evaluation": [
+    "C2",
+    "Ds2",
+    "Fs2",
+    "A2",
+    "Ds3",
+    "Fs3",
+    "Ds4",
+    "Fs4",
+    "C5",
+    "Ds5",
+    "Fs5",
+    "A5",
+    "C6"
+  ],
+  "sample_rate": 8000,
+  "duration_seconds": 1.0,
+  "harmonics": 24,
+  "steps": 180,
+  "learning_rate": 0.025,
+  "fixed_decay_per_second": 2.0,
+  "fft_sizes": [
+    256,
+    512,
+    1024
+  ],
+  "seed": 2027,
+  "pitch_range_hz": [
+    55,
+    1200
+  ],
+  "pitch_refinement_semitones": 0.75,
+  "variants": [
+    "fixed",
+    "learned"
+  ],
+  "label_policy": "Filenames/pitch labels only determine splits and evaluation. Fitting functions accept waveform and configuration only.",
+  "evaluation_policy": "Freeze configuration after development. Each evaluation waveform is fitted at inference; this is not evaluation of a globally trained network. No claims of unseen-instrument generalisation.",
+  "success_policy": "Report all samples and failures. No requirement that the differentiable method beat YIN.",
+  "candidate_multipliers": [
+    1.0
+  ],
+  "development_revision": "Initial octave-search development failed on 3/4 pitch labels despite lower spectral loss; constrain refinement around YIN without using reference labels at inference. Initial evidence retained in results/development_initial."
+}
