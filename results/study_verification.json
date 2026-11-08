@@ -1,0 +1,9 @@
+{
+  "source_recordings": 39,
+  "verified_output_wavs": 207,
+  "verified_melodies": 12,
+  "verified_midi_files": 36,
+  "frozen_hashes_match": true,
+  "metrics_recomputed": true,
+  "local_report_links_exist": true
+}
